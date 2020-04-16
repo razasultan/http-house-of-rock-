@@ -12,6 +12,7 @@ import { SamstagComponent } from './samstag/samstag.component';
 import { KutschnComponent } from './kutschn/kutschn.component';
 import { HomeComponent } from './home/home.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     SamstagComponent,
     KutschnComponent,
     HomeComponent,
-    NavBarComponent
+    NavBarComponent,
+    ErrorPageComponent
   ],
   imports: [
     BrowserModule,

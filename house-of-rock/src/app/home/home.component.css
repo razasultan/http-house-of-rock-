@@ -1,0 +1,46 @@
+.banner-img{
+    text-align: center;
+    
+
+}
+.bg-img{
+    padding: 0px 250px 500px 250px;
+    
+    background-image: url(../../assets/imgs/k_stier-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 5px red solid;
+    
+}
+.left-imgs{
+    float: left;
+    margin: auto;
+    border: 5px red solid;
+    /* padding-left: 30%; */
+}
+.right-imgs{
+    float: right;
+    border: 5px red solid;
+    /* padding-right: 30%; */
+  
+}
+.left-img-1{
+    padding-bottom: 10%;
+}
+
+.center-img{
+    align-content: center;
+    /* width: 400px;
+    padding-left: 20px;
+    margin-left: 10px; */
+   
+}
+.container-1{
+    /* width: 80%;
+    margin: auto; */
+
+
+}
+.container-margin{
+    padding-top: 2em;
+}

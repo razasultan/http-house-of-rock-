@@ -8,9 +8,11 @@ import { U30Component } from './u30/u30.component';
 import { SamstagComponent } from './samstag/samstag.component';
 import { KutschnComponent } from './kutschn/kutschn.component';
 import { HomeComponent } from './home/home.component';
+import {ErrorPageComponent} from './error-page/error-page.component'
 
 
 const routes: Routes = [
+  {path: '' , component: HomeComponent},
   { path: 'home' , component: HomeComponent },
   { path: 'events' , component: EventsComponent },
   { path: 'gallary' , component: GalleryComponent },
@@ -19,6 +21,7 @@ const routes: Routes = [
   { path: 'U30' , component: U30Component },
   { path: 'samstag' , component: SamstagComponent },
   { path: 'kutschn' , component: KutschnComponent },
+  { path: '**' , component: ErrorPageComponent}
 ];
 
 @NgModule({

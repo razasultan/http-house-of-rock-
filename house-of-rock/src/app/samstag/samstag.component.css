@@ -1,0 +1,16 @@
+h1, h2, p {
+    text-align: center;
+    color: #fff;
+}
+.main-content{
+    padding: 15%;
+padding-bottom: 3%;
+    padding-top: 3%;
+    font-size: x-large;
+}
+.left-img{
+    float: left;
+}
+.right-img{
+    float: right;
+}
